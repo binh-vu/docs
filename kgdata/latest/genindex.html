@@ -1,0 +1,1234 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="#" /><link rel="search" title="Search" href="search.html" />
+
+    <meta name="generator" content="sphinx-5.0.2, furo 2022.06.21"/><title>Index - kgdata</title>
+<link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=40978830699223671f4072448e654b5958f38b89" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/ibm-plex.min.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --font-stack: IBM PLex Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  --font-stack--monospace: IBM PLex Mono, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">kgdata</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  
+  <span class="sidebar-brand-text">kgdata</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wikidata.html">Wikidata</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wikipedia.html">Wikipedia</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="api.html">Python APIs</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="apis/kgdata.spark.html">kgdata.spark</a></li>
+<li class="toctree-l2"><a class="reference internal" href="apis/kgdata.splitter.html">kgdata.splitter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="apis/kgdata.wikidata.db.html">kgdata.wikidata.db</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="apis/kgdata.wikidata.models.html">kgdata.wikidata.models</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="apis/kgdata.wikidata.models.multilingual.html">kgdata.wikidata.models.multilingual</a></li>
+<li class="toctree-l3"><a class="reference internal" href="apis/kgdata.wikidata.models.propertystats.html">kgdata.wikidata.models.propertystats</a></li>
+<li class="toctree-l3"><a class="reference internal" href="apis/kgdata.wikidata.models.wdclass.html">kgdata.wikidata.models.wdclass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="apis/kgdata.wikidata.models.wdentity.html">kgdata.wikidata.models.wdentity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="apis/kgdata.wikidata.models.wdentitylabel.html">kgdata.wikidata.models.wdentitylabel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="apis/kgdata.wikidata.models.wdproperty.html">kgdata.wikidata.models.wdproperty</a></li>
+<li class="toctree-l3"><a class="reference internal" href="apis/kgdata.wikidata.models.wdstatement.html">kgdata.wikidata.models.wdstatement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="apis/kgdata.wikidata.models.wdvalue.html">kgdata.wikidata.models.wdvalue</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Development</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          
+<section class="genindex-section">
+  <h1 id="index">Index</h1>
+  <div class="genindex-jumpbox"><a href="#A"><strong>A</strong></a> | <a href="#B"><strong>B</strong></a> | <a href="#C"><strong>C</strong></a> | <a href="#D"><strong>D</strong></a> | <a href="#E"><strong>E</strong></a> | <a href="#F"><strong>F</strong></a> | <a href="#G"><strong>G</strong></a> | <a href="#H"><strong>H</strong></a> | <a href="#I"><strong>I</strong></a> | <a href="#J"><strong>J</strong></a> | <a href="#K"><strong>K</strong></a> | <a href="#L"><strong>L</strong></a> | <a href="#M"><strong>M</strong></a> | <a href="#N"><strong>N</strong></a> | <a href="#P"><strong>P</strong></a> | <a href="#Q"><strong>Q</strong></a> | <a href="#R"><strong>R</strong></a> | <a href="#S"><strong>S</strong></a> | <a href="#T"><strong>T</strong></a> | <a href="#U"><strong>U</strong></a> | <a href="#V"><strong>V</strong></a> | <a href="#W"><strong>W</strong></a> | <a href="#Z"><strong>Z</strong></a></div>
+</section>
+<section id="A" class="genindex-section">
+  <h2>A</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.after">after (kgdata.wikidata.models.wdvalue.ValueTime attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdclass.html#kgdata.wikidata.models.wdclass.WDClass.aliases">aliases (kgdata.wikidata.models.wdclass.WDClass attribute)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.WDEntity.aliases">(kgdata.wikidata.models.wdentity.WDEntity attribute)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.aliases">(kgdata.wikidata.models.wdproperty.WDProperty attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.altitude">altitude (kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.amount">amount (kgdata.wikidata.models.wdvalue.ValueQuantity attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdclass.html#kgdata.wikidata.models.wdclass.WDClass.ancestors">ancestors (kgdata.wikidata.models.wdclass.WDClass attribute)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.ancestors">(kgdata.wikidata.models.wdproperty.WDProperty attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualStringList.append">append() (kgdata.wikidata.models.multilingual.MultiLingualStringList method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.as_entity_id">as_entity_id() (kgdata.wikidata.models.wdvalue.WDValue method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.as_entity_id_safe">as_entity_id_safe() (kgdata.wikidata.models.wdvalue.WDValue method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.as_lang">as_lang() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.as_lang_default">as_lang_default() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.as_pnode_id_safe">as_pnode_id_safe() (kgdata.wikidata.models.wdvalue.WDValue method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.as_qnode_id_safe">as_qnode_id_safe() (kgdata.wikidata.models.wdvalue.WDValue method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.as_string">as_string() (kgdata.wikidata.models.wdvalue.WDValue method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="B" class="genindex-section">
+  <h2>B</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.SiteLink.badges">badges (kgdata.wikidata.models.wdentity.SiteLink attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.before">before (kgdata.wikidata.models.wdvalue.ValueTime attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="C" class="genindex-section">
+  <h2>C</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.cache">cache() (kgdata.wikidata.db.WDProxyDB method)</a>
+</li>
+        <li><a href="apis/kgdata.spark.html#kgdata.spark.cache_rdd">cache_rdd() (in module kgdata.spark)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.calendarmodel">calendarmodel (kgdata.wikidata.models.wdvalue.ValueTime attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.capitalize">capitalize() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.casefold">casefold() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.center">center() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.clear">clear() (kgdata.wikidata.db.WDProxyDB method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualStringList.clear">(kgdata.wikidata.models.multilingual.MultiLingualStringList method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.clear">(kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText.clear">(kgdata.wikidata.models.wdvalue.ValueMonolingualText method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.clear">(kgdata.wikidata.models.wdvalue.ValueQuantity method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.clear">(kgdata.wikidata.models.wdvalue.ValueTime method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId.clear">(kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.spark.html#kgdata.spark.close_spark_context">close_spark_context() (in module kgdata.spark)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.compact">compact() (kgdata.wikidata.db.WDProxyDB method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualStringList.copy">copy() (kgdata.wikidata.models.multilingual.MultiLingualStringList method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.copy">(kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText.copy">(kgdata.wikidata.models.wdvalue.ValueMonolingualText method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.copy">(kgdata.wikidata.models.wdvalue.ValueQuantity method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.copy">(kgdata.wikidata.models.wdvalue.ValueTime method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId.copy">(kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId method)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.count">count() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualStringList.count">(kgdata.wikidata.models.multilingual.MultiLingualStringList method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="D" class="genindex-section">
+  <h2>D</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.WDEntity.datatype">datatype (kgdata.wikidata.models.wdentity.WDEntity attribute)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.datatype">(kgdata.wikidata.models.wdproperty.WDProperty attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.splitter.html#kgdata.splitter.default_currentbyte_constructor">default_currentbyte_constructor() (in module kgdata.splitter)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdclass.html#kgdata.wikidata.models.wdclass.WDClass.description">description (kgdata.wikidata.models.wdclass.WDClass attribute)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.WDEntity.description">(kgdata.wikidata.models.wdentity.WDEntity attribute)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.description">(kgdata.wikidata.models.wdproperty.WDProperty attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.deser_value">deser_value (kgdata.wikidata.db.WDProxyDB attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.deserialize">deserialize() (in module kgdata.wikidata.db)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdclass.html#kgdata.wikidata.models.wdclass.WDClass.different_froms">different_froms (kgdata.wikidata.models.wdclass.WDClass attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.does_not_exist_locally">does_not_exist_locally() (kgdata.wikidata.db.WDProxyDB method)</a>
+</li>
+        <li><a href="apis/kgdata.spark.html#kgdata.spark.does_result_dir_exist">does_result_dir_exist() (in module kgdata.spark)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="E" class="genindex-section">
+  <h2>E</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.en">en() (kgdata.wikidata.models.multilingual.MultiLingualString static method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.encode">encode() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.endswith">endswith() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.spark.html#kgdata.spark.ensure_unique_records">ensure_unique_records() (in module kgdata.spark)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdclass.html#kgdata.wikidata.models.wdclass.WDClass.equivalent_classes">equivalent_classes (kgdata.wikidata.models.wdclass.WDClass attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.equivalent_properties">equivalent_properties (kgdata.wikidata.models.wdproperty.WDProperty attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.expandtabs">expandtabs() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualStringList.extend">extend() (kgdata.wikidata.models.multilingual.MultiLingualStringList method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="F" class="genindex-section">
+  <h2>F</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.find">find() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.spark.html#kgdata.spark.fix_rdd">fix_rdd() (in module kgdata.spark)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.format">format() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.format_map">format_map() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdclass.html#kgdata.wikidata.models.wdclass.WDClass.from_dict">from_dict() (kgdata.wikidata.models.wdclass.WDClass static method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.WDEntity.from_dict">(kgdata.wikidata.models.wdentity.WDEntity static method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdentitylabel.html#kgdata.wikidata.models.wdentitylabel.WDEntityLabel.from_dict">(kgdata.wikidata.models.wdentitylabel.WDEntityLabel static method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.from_dict">(kgdata.wikidata.models.wdproperty.WDProperty static method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdstatement.html#kgdata.wikidata.models.wdstatement.WDStatement.from_dict">(kgdata.wikidata.models.wdstatement.WDStatement static method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.WDQuantityPropertyStats.from_dir">from_dir() (kgdata.wikidata.models.propertystats.WDQuantityPropertyStats static method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdclass.html#kgdata.wikidata.models.wdclass.WDClass.from_entity">from_entity() (kgdata.wikidata.models.wdclass.WDClass static method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.from_entity">(kgdata.wikidata.models.wdproperty.WDProperty static method)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.wikidata.models.wdentitylabel.html#kgdata.wikidata.models.wdentitylabel.WDEntityLabel.from_wdentity_raw">from_wdentity_raw() (kgdata.wikidata.models.wdentitylabel.WDEntityLabel static method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.WDEntity.from_wikidump">from_wikidump() (kgdata.wikidata.models.wdentity.WDEntity static method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.fromkeys">fromkeys() (kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText.fromkeys">(kgdata.wikidata.models.wdvalue.ValueMonolingualText method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.fromkeys">(kgdata.wikidata.models.wdvalue.ValueQuantity method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.fromkeys">(kgdata.wikidata.models.wdvalue.ValueTime method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId.fromkeys">(kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="G" class="genindex-section">
+  <h2>G</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.get">get() (kgdata.wikidata.db.WDProxyDB method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.get">(kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText.get">(kgdata.wikidata.models.wdvalue.ValueMonolingualText method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.get">(kgdata.wikidata.models.wdvalue.ValueQuantity method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.get">(kgdata.wikidata.models.wdvalue.ValueTime method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId.get">(kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId method)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.get_entity_db">get_entity_db() (in module kgdata.wikidata.db)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.get_entity_label_db">get_entity_label_db() (in module kgdata.wikidata.db)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.get_entity_redirection_db">get_entity_redirection_db() (in module kgdata.wikidata.db)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.get_int_property">get_int_property() (kgdata.wikidata.db.WDProxyDB method)</a>
+</li>
+        <li><a href="apis/kgdata.spark.html#kgdata.spark.get_spark_context">get_spark_context() (in module kgdata.spark)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.get_wdclass_db">get_wdclass_db() (in module kgdata.wikidata.db)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.get_wdprop_db">get_wdprop_db() (in module kgdata.wikidata.db)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.get_wdprop_domain_db">get_wdprop_domain_db() (in module kgdata.wikidata.db)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.get_wdprop_range_db">get_wdprop_range_db() (in module kgdata.wikidata.db)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.get_wp2wd_db">get_wp2wd_db() (in module kgdata.wikidata.db)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.globe">globe (kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="H" class="genindex-section">
+  <h2>H</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.has_lang">has_lang() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.spark.html#kgdata.spark.head">head() (in module kgdata.spark)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="I" class="genindex-section">
+  <h2>I</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.WDQuantityPropertyStats.id">id (kgdata.wikidata.models.propertystats.WDQuantityPropertyStats attribute)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdclass.html#kgdata.wikidata.models.wdclass.WDClass.id">(kgdata.wikidata.models.wdclass.WDClass attribute)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.WDEntity.id">(kgdata.wikidata.models.wdentity.WDEntity attribute)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdentitylabel.html#kgdata.wikidata.models.wdentitylabel.WDEntityLabel.id">(kgdata.wikidata.models.wdentitylabel.WDEntityLabel attribute)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.id">(kgdata.wikidata.models.wdproperty.WDProperty attribute)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId.id">(kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.index">index() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualStringList.index">(kgdata.wikidata.models.multilingual.MultiLingualStringList method)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualStringList.insert">insert() (kgdata.wikidata.models.multilingual.MultiLingualStringList method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.instanceof">instanceof (kgdata.wikidata.models.wdproperty.WDProperty attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.QuantityStats.int_size">int_size (kgdata.wikidata.models.propertystats.QuantityStats attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.inverse_properties">inverse_properties (kgdata.wikidata.models.wdproperty.WDProperty attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.is_data_property">is_data_property() (kgdata.wikidata.models.wdproperty.WDProperty method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.is_entity_id">is_entity_id() (kgdata.wikidata.models.wdvalue.WDValue static method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.is_globe_coordinate">is_globe_coordinate() (kgdata.wikidata.models.wdvalue.WDValue static method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.is_mono_lingual_text">is_mono_lingual_text() (kgdata.wikidata.models.wdvalue.WDValue static method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.is_object_property">is_object_property() (kgdata.wikidata.models.wdproperty.WDProperty method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.is_pnode">is_pnode() (kgdata.wikidata.models.wdvalue.WDValue static method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.is_qnode">is_qnode() (kgdata.wikidata.models.wdvalue.WDValue static method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.is_quantity">is_quantity() (kgdata.wikidata.models.wdvalue.WDValue static method)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.is_string">is_string() (kgdata.wikidata.models.wdvalue.WDValue static method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.is_time">is_time() (kgdata.wikidata.models.wdvalue.WDValue static method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.is_transitive">is_transitive() (kgdata.wikidata.models.wdproperty.WDProperty method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.isalnum">isalnum() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.isalpha">isalpha() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.isascii">isascii() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.isdecimal">isdecimal() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.isdigit">isdigit() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.isidentifier">isidentifier() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.islower">islower() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.isnumeric">isnumeric() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.isprintable">isprintable() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.isspace">isspace() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.istitle">istitle() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.isupper">isupper() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.items">items() (kgdata.wikidata.db.WDProxyDB method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.items">(kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText.items">(kgdata.wikidata.models.wdvalue.ValueMonolingualText method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.items">(kgdata.wikidata.models.wdvalue.ValueQuantity method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.items">(kgdata.wikidata.models.wdvalue.ValueTime method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId.items">(kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="J" class="genindex-section">
+  <h2>J</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.join">join() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="K" class="genindex-section">
+  <h2>K</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.keys">keys() (kgdata.wikidata.db.WDProxyDB method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.keys">(kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText.keys">(kgdata.wikidata.models.wdvalue.ValueMonolingualText method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.keys">(kgdata.wikidata.models.wdvalue.ValueQuantity method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.keys">(kgdata.wikidata.models.wdvalue.ValueTime method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId.keys">(kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId method)</a>
+</li>
+        </ul></li>
+        <li>
+    kgdata.spark
+
+        <ul>
+          <li><a href="apis/kgdata.spark.html#module-kgdata.spark">module</a>
+</li>
+        </ul></li>
+        <li>
+    kgdata.splitter
+
+        <ul>
+          <li><a href="apis/kgdata.splitter.html#module-kgdata.splitter">module</a>
+</li>
+        </ul></li>
+        <li>
+    kgdata.wikidata.db
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.db.html#module-kgdata.wikidata.db">module</a>
+</li>
+        </ul></li>
+        <li>
+    kgdata.wikidata.models
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.html#module-kgdata.wikidata.models">module</a>
+</li>
+        </ul></li>
+        <li>
+    kgdata.wikidata.models.multilingual
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.multilingual.html#module-kgdata.wikidata.models.multilingual">module</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li>
+    kgdata.wikidata.models.propertystats
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.propertystats.html#module-kgdata.wikidata.models.propertystats">module</a>
+</li>
+        </ul></li>
+        <li>
+    kgdata.wikidata.models.wdclass
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdclass.html#module-kgdata.wikidata.models.wdclass">module</a>
+</li>
+        </ul></li>
+        <li>
+    kgdata.wikidata.models.wdentity
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdentity.html#module-kgdata.wikidata.models.wdentity">module</a>
+</li>
+        </ul></li>
+        <li>
+    kgdata.wikidata.models.wdentitylabel
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdentitylabel.html#module-kgdata.wikidata.models.wdentitylabel">module</a>
+</li>
+        </ul></li>
+        <li>
+    kgdata.wikidata.models.wdproperty
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdproperty.html#module-kgdata.wikidata.models.wdproperty">module</a>
+</li>
+        </ul></li>
+        <li>
+    kgdata.wikidata.models.wdstatement
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdstatement.html#module-kgdata.wikidata.models.wdstatement">module</a>
+</li>
+        </ul></li>
+        <li>
+    kgdata.wikidata.models.wdvalue
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#module-kgdata.wikidata.models.wdvalue">module</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="L" class="genindex-section">
+  <h2>L</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdclass.html#kgdata.wikidata.models.wdclass.WDClass.label">label (kgdata.wikidata.models.wdclass.WDClass attribute)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.WDEntity.label">(kgdata.wikidata.models.wdentity.WDEntity attribute)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdentitylabel.html#kgdata.wikidata.models.wdentitylabel.WDEntityLabel.label">(kgdata.wikidata.models.wdentitylabel.WDEntityLabel attribute)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.label">(kgdata.wikidata.models.wdproperty.WDProperty attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.lang">lang (kgdata.wikidata.models.multilingual.MultiLingualString attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.lang2value">lang2value (kgdata.wikidata.models.multilingual.MultiLingualString attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText.language">language (kgdata.wikidata.models.wdvalue.ValueMonolingualText attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.latitude">latitude (kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate attribute)</a>
+</li>
+        <li><a href="apis/kgdata.spark.html#kgdata.spark.left_outer_join">left_outer_join() (in module kgdata.spark)</a>
+</li>
+        <li><a href="apis/kgdata.spark.html#kgdata.spark.left_outer_join_broadcast">left_outer_join_broadcast() (in module kgdata.spark)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.ljust">ljust() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.longitude">longitude (kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.lower">lower() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.lowerBound">lowerBound (kgdata.wikidata.models.wdvalue.ValueQuantity attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.lstrip">lstrip() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="M" class="genindex-section">
+  <h2>M</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.maketrans">maketrans() (kgdata.wikidata.models.multilingual.MultiLingualString static method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.QuantityStats.max">max (kgdata.wikidata.models.propertystats.QuantityStats attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.QuantityStats.mean">mean (kgdata.wikidata.models.propertystats.QuantityStats attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.QuantityStats.min">min (kgdata.wikidata.models.propertystats.QuantityStats attribute)</a>
+</li>
+        <li>
+    module
+
+        <ul>
+          <li><a href="apis/kgdata.spark.html#module-kgdata.spark">kgdata.spark</a>
+</li>
+          <li><a href="apis/kgdata.splitter.html#module-kgdata.splitter">kgdata.splitter</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.db.html#module-kgdata.wikidata.db">kgdata.wikidata.db</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.html#module-kgdata.wikidata.models">kgdata.wikidata.models</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.multilingual.html#module-kgdata.wikidata.models.multilingual">kgdata.wikidata.models.multilingual</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.propertystats.html#module-kgdata.wikidata.models.propertystats">kgdata.wikidata.models.propertystats</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdclass.html#module-kgdata.wikidata.models.wdclass">kgdata.wikidata.models.wdclass</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdentity.html#module-kgdata.wikidata.models.wdentity">kgdata.wikidata.models.wdentity</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdentitylabel.html#module-kgdata.wikidata.models.wdentitylabel">kgdata.wikidata.models.wdentitylabel</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdproperty.html#module-kgdata.wikidata.models.wdproperty">kgdata.wikidata.models.wdproperty</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdstatement.html#module-kgdata.wikidata.models.wdstatement">kgdata.wikidata.models.wdstatement</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#module-kgdata.wikidata.models.wdvalue">kgdata.wikidata.models.wdvalue</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString">MultiLingualString (class in kgdata.wikidata.models.multilingual)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualStringList">MultiLingualStringList (class in kgdata.wikidata.models.multilingual)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="N" class="genindex-section">
+  <h2>N</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.QuantityStats.n_overi36">n_overi36 (kgdata.wikidata.models.propertystats.QuantityStats attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="P" class="genindex-section">
+  <h2>P</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdclass.html#kgdata.wikidata.models.wdclass.WDClass.parents">parents (kgdata.wikidata.models.wdclass.WDClass attribute)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.parents">(kgdata.wikidata.models.wdproperty.WDProperty attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.partition">partition() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.pop">pop() (kgdata.wikidata.db.WDProxyDB method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualStringList.pop">(kgdata.wikidata.models.multilingual.MultiLingualStringList method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.pop">(kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText.pop">(kgdata.wikidata.models.wdvalue.ValueMonolingualText method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.pop">(kgdata.wikidata.models.wdvalue.ValueQuantity method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.pop">(kgdata.wikidata.models.wdvalue.ValueTime method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId.pop">(kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.popitem">popitem() (kgdata.wikidata.db.WDProxyDB method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.popitem">(kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText.popitem">(kgdata.wikidata.models.wdvalue.ValueMonolingualText method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.popitem">(kgdata.wikidata.models.wdvalue.ValueQuantity method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.popitem">(kgdata.wikidata.models.wdvalue.ValueTime method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId.popitem">(kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId method)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.precision">precision (kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate attribute)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.precision">(kgdata.wikidata.models.wdvalue.ValueTime attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.wikidata.models.wdclass.html#kgdata.wikidata.models.wdclass.WDClass.properties">properties (kgdata.wikidata.models.wdclass.WDClass attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.WDEntity.props">props (kgdata.wikidata.models.wdentity.WDEntity attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="Q" class="genindex-section">
+  <h2>Q</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.WDQuantityPropertyStats.qualifiers">qualifiers (kgdata.wikidata.models.propertystats.WDQuantityPropertyStats attribute)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdstatement.html#kgdata.wikidata.models.wdstatement.WDStatement.qualifiers">(kgdata.wikidata.models.wdstatement.WDStatement attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdstatement.html#kgdata.wikidata.models.wdstatement.WDStatement.qualifiers_order">qualifiers_order (kgdata.wikidata.models.wdstatement.WDStatement attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.QuantityStats">QuantityStats (class in kgdata.wikidata.models.propertystats)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.query_wikidata_entities">query_wikidata_entities() (in module kgdata.wikidata.db)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="R" class="genindex-section">
+  <h2>R</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdstatement.html#kgdata.wikidata.models.wdstatement.WDStatement.rank">rank (kgdata.wikidata.models.wdstatement.WDStatement attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.related_properties">related_properties (kgdata.wikidata.models.wdproperty.WDProperty attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualStringList.remove">remove() (kgdata.wikidata.models.multilingual.MultiLingualStringList method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.removeprefix">removeprefix() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.removesuffix">removesuffix() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.replace">replace() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualStringList.reverse">reverse() (kgdata.wikidata.models.multilingual.MultiLingualStringList method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.rfind">rfind() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.rindex">rindex() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.rjust">rjust() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.rpartition">rpartition() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.rsplit">rsplit() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.rstrip">rstrip() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="S" class="genindex-section">
+  <h2>S</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.spark.html#kgdata.spark.saveAsSingleTextFile">saveAsSingleTextFile() (in module kgdata.spark)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.seek_items">seek_items() (kgdata.wikidata.db.WDProxyDB method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.seek_keys">seek_keys() (kgdata.wikidata.db.WDProxyDB method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.ser_value">ser_value (kgdata.wikidata.db.WDProxyDB attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.serialize">serialize() (in module kgdata.wikidata.db)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.setdefault">setdefault() (kgdata.wikidata.db.WDProxyDB method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.setdefault">(kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText.setdefault">(kgdata.wikidata.models.wdvalue.ValueMonolingualText method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.setdefault">(kgdata.wikidata.models.wdvalue.ValueQuantity method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.setdefault">(kgdata.wikidata.models.wdvalue.ValueTime method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId.setdefault">(kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId method)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.WDEntity.shallow_clone">shallow_clone() (kgdata.wikidata.models.wdentity.WDEntity method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.SiteLink.site">site (kgdata.wikidata.models.wdentity.SiteLink attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.SiteLink">SiteLink (class in kgdata.wikidata.models.wdentity)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.WDEntity.sitelinks">sitelinks (kgdata.wikidata.models.wdentity.WDEntity attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.QuantityStats.size">size (kgdata.wikidata.models.propertystats.QuantityStats attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualStringList.sort">sort() (kgdata.wikidata.models.multilingual.MultiLingualStringList method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.split">split() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.splitter.html#kgdata.splitter.split_a_file">split_a_file() (in module kgdata.splitter)</a>
+</li>
+        <li><a href="apis/kgdata.splitter.html#kgdata.splitter.split_a_list">split_a_list() (in module kgdata.splitter)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.splitlines">splitlines() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.startswith">startswith() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.QuantityStats.std">std (kgdata.wikidata.models.propertystats.QuantityStats attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.strip">strip() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.splitter.html#kgdata.splitter.strip_newline">strip_newline() (in module kgdata.splitter)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.subjects">subjects (kgdata.wikidata.models.wdproperty.WDProperty attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.swapcase">swapcase() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="T" class="genindex-section">
+  <h2>T</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText.text">text (kgdata.wikidata.models.wdvalue.ValueMonolingualText attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.time">time (kgdata.wikidata.models.wdvalue.ValueTime attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.timezone">timezone (kgdata.wikidata.models.wdvalue.ValueTime attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.SiteLink.title">title (kgdata.wikidata.models.wdentity.SiteLink attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.title">title() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.to_dict">to_dict() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualStringList.to_dict">(kgdata.wikidata.models.multilingual.MultiLingualStringList method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdclass.html#kgdata.wikidata.models.wdclass.WDClass.to_dict">(kgdata.wikidata.models.wdclass.WDClass method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.SiteLink.to_dict">(kgdata.wikidata.models.wdentity.SiteLink method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.WDEntity.to_dict">(kgdata.wikidata.models.wdentity.WDEntity method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdentitylabel.html#kgdata.wikidata.models.wdentitylabel.WDEntityLabel.to_dict">(kgdata.wikidata.models.wdentitylabel.WDEntityLabel method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty.to_dict">(kgdata.wikidata.models.wdproperty.WDProperty method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdstatement.html#kgdata.wikidata.models.wdstatement.WDStatement.to_dict">(kgdata.wikidata.models.wdstatement.WDStatement method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.to_dict">(kgdata.wikidata.models.wdvalue.WDValue method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.to_string_repr">to_string_repr() (kgdata.wikidata.models.wdvalue.WDValue method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.translate">translate() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.try_catch_up_with_primary">try_catch_up_with_primary() (kgdata.wikidata.db.WDProxyDB method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.WDEntity.type">type (kgdata.wikidata.models.wdentity.WDEntity attribute)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.type">(kgdata.wikidata.models.wdvalue.WDValue attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.type_check">type_check() (in module kgdata.wikidata.models.wdvalue)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="U" class="genindex-section">
+  <h2>U</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.unit">unit (kgdata.wikidata.models.wdvalue.ValueQuantity attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.QuantityStats.units">units (kgdata.wikidata.models.propertystats.QuantityStats attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.update">update() (kgdata.wikidata.db.WDProxyDB method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.update">(kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText.update">(kgdata.wikidata.models.wdvalue.ValueMonolingualText method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.update">(kgdata.wikidata.models.wdvalue.ValueQuantity method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.update">(kgdata.wikidata.models.wdvalue.ValueTime method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId.update">(kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.upper">upper() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.upperBound">upperBound (kgdata.wikidata.models.wdvalue.ValueQuantity attribute)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.SiteLink.url">url (kgdata.wikidata.models.wdentity.SiteLink attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="V" class="genindex-section">
+  <h2>V</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.WDQuantityPropertyStats.value">value (kgdata.wikidata.models.propertystats.WDQuantityPropertyStats attribute)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdstatement.html#kgdata.wikidata.models.wdstatement.WDStatement.value">(kgdata.wikidata.models.wdstatement.WDStatement attribute)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue.value">(kgdata.wikidata.models.wdvalue.WDValue attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate">ValueGlobeCoordinate (class in kgdata.wikidata.models.wdvalue)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText">ValueMonolingualText (class in kgdata.wikidata.models.wdvalue)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity">ValueQuantity (class in kgdata.wikidata.models.wdvalue)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB.values">values() (kgdata.wikidata.db.WDProxyDB method)</a>
+
+        <ul>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate.values">(kgdata.wikidata.models.wdvalue.ValueGlobeCoordinate method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueMonolingualText.values">(kgdata.wikidata.models.wdvalue.ValueMonolingualText method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueQuantity.values">(kgdata.wikidata.models.wdvalue.ValueQuantity method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime.values">(kgdata.wikidata.models.wdvalue.ValueTime method)</a>
+</li>
+          <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId.values">(kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueTime">ValueTime (class in kgdata.wikidata.models.wdvalue)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.ValueWikibaseEntityId">ValueWikibaseEntityId (class in kgdata.wikidata.models.wdvalue)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="W" class="genindex-section">
+  <h2>W</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.wdclass.html#kgdata.wikidata.models.wdclass.WDClass">WDClass (class in kgdata.wikidata.models.wdclass)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdentity.html#kgdata.wikidata.models.wdentity.WDEntity">WDEntity (class in kgdata.wikidata.models.wdentity)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdentitylabel.html#kgdata.wikidata.models.wdentitylabel.WDEntityLabel">WDEntityLabel (class in kgdata.wikidata.models.wdentitylabel)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdproperty.html#kgdata.wikidata.models.wdproperty.WDProperty">WDProperty (class in kgdata.wikidata.models.wdproperty)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.db.html#kgdata.wikidata.db.WDProxyDB">WDProxyDB (class in kgdata.wikidata.db)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.propertystats.html#kgdata.wikidata.models.propertystats.WDQuantityPropertyStats">WDQuantityPropertyStats (class in kgdata.wikidata.models.propertystats)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdstatement.html#kgdata.wikidata.models.wdstatement.WDStatement">WDStatement (class in kgdata.wikidata.models.wdstatement)</a>
+</li>
+        <li><a href="apis/kgdata.wikidata.models.wdvalue.html#kgdata.wikidata.models.wdvalue.WDValue">WDValue (class in kgdata.wikidata.models.wdvalue)</a>
+</li>
+        <li><a href="apis/kgdata.splitter.html#kgdata.splitter.write_to_file">write_to_file() (in module kgdata.splitter)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="Z" class="genindex-section">
+  <h2>Z</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="apis/kgdata.wikidata.models.multilingual.html#kgdata.wikidata.models.multilingual.MultiLingualString.zfill">zfill() (kgdata.wikidata.models.multilingual.MultiLingualString method)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2022, Binh Vu
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            <div class="icons">
+              
+            </div>
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/scripts/furo.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    </body>
+</html>

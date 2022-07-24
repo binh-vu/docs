@@ -1,0 +1,6 @@
+﻿kgdata.wikidata.models.\_\_init\_\_
+===================================
+
+.. currentmodule:: kgdata.wikidata.models
+
+.. autodata:: __init__
